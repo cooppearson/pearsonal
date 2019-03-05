@@ -1,1 +1,1 @@
-This is a personal website for Coop Pearson, and may also expand to include other people as well.
+This is a placeholder description because I have always been terrible at writing succinct summaries describing the purpose of things I've created.
