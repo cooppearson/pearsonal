@@ -1,3 +1,5 @@
+/* General */
+
 .App {
   text-align: center;
 }
@@ -30,4 +32,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Banner */
+
+.bannerContainer{
+    height: 150px;
+    width:100%;
+    background: linear-gradient(150deg, #53f 15%, #05d5ff 70%, #a6ffcb 95%);
+    transition: skewY(6deg);
+}
+
+.bannerTitlesClass{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.bannerTitle{
+    font-family: bitter;
+    color: white;
+}
+
+.bannerSubtitle{
+    color: white;
 }
