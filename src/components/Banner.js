@@ -1,20 +1,24 @@
 import React from 'react';
+import Navigation from './Navigation';
 
-const Banner = ({props}) => {
+export default class Banner extends React.Component {
+	constructor(props) {
+		super(props);
+		this.header = {
+			siteName:'Pearsonal',
+			tagLine:'A website for all things Pearson'
+		}
+	}
 
-    const header = {
-        siteName:'Pearsonal',
-        tagLine:'A personal site for everything Pearson related.'
-    }
-
-    return(
-        <div className="bannerContainer">
-            <div className="bannerTitlesClass">
-                <h1 className="bannerTitle">{header.siteName}</h1>
-                <p className="bannerSubtitle">{header.tagLine}</p>
-            </div>
-        </div>
-    )
+	render() {
+		return(
+			<div className="bannerContainer">
+				<div className="bannerTitlesContainer">
+					<div className="pearsonalLogo">{this.header.siteName}</div>
+				</div>
+				<div className="bannerSubtitle">{this.header.tagLine}</div>
+				<Navigation/>
+			</div>
+		)
+	}
 };
-
-export default Banner;

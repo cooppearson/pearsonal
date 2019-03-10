@@ -1,0 +1,13 @@
+/* Projects  */
+
+.ritigoLightPurple{
+	background: linear-gradient(90deg, #ebd1ff 0%, #dcb3fc 100%);
+}
+
+.ritigoMediumPurple{
+	background: linear-gradient(90deg, #c77aff 0%, #b44efc 100%);
+}
+
+.ritigoDarkPurple{
+	background: linear-gradient(90deg, #7a00bc 0%, #6b00a5 100%);
+}

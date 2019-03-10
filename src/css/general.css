@@ -1,58 +1,199 @@
 /* General */
 
-.App {
+.App{
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 /* Banner */
 
 .bannerContainer{
-    height: 150px;
-    width:100%;
-    background: linear-gradient(150deg, #53f 15%, #05d5ff 70%, #a6ffcb 95%);
-    transition: skewY(6deg);
+	width: 100%;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background-color: white;
 }
 
-.bannerTitlesClass{
-    padding-top: 10px;
-    padding-left: 25px;
+.bannerBar{
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(150deg, navy -15%, #05d5ff 80%, #99ffcc 100%);
+	box-shadow: 0px 1px 2px rgba(0,0,0,.2);
 }
 
-.bannerTitle{
-    font-family: bitter;
-    color: white;
+.bannerTitlesContainer{
+	width: 100%;
+	min-width: 1000px;
+	text-align: center;
+}
+
+.pearsonalLogo{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: black;
+	font-size: 40px;
+	font-family: bitter;
+	font-weight: normal;
+	text-transform: uppercase;
+	transition: 0.2s;
+	display: inline-block;
+}
+
+.pearsonalLogo:hover{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #c82714;
+	font-size: 40px;
+	font-family: bitter;
+	font-weight: normal;
+	transition: 0.2s;
+	display: inline-block;
+	transition: 0.2s;
 }
 
 .bannerSubtitle{
-    color: white;
+	width: 100%;
+	min-width: 1000px;
+	text-align: center;
+	padding-bottom: 5px;
+	font-size: 16px;
+	font-family: bitter;
+	text-transform: lowercase;
+	font-weight: normal;
+	font-style: italic;
+	color: dimgrey;
+	display: inline-block;
+}
+
+/* Navigation */
+
+.navigationContainer{
+	width: 100%;
+	min-width: 1000px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+	display: inline-block;
+}
+
+li{
+	display: inline-block;
+}
+
+.noStyling{
+	text-decoration: none;
+	color: inherit;
+}
+
+.navButtons{
+	cursor: pointer;
+	min-width: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: bitter;
+	font-weight: 400;
+}
+
+.navigationHome:hover{
+	transition: 0.2s;
+	color: navy;
+	background-color: #BEBEED;
+}
+
+.navigationCards:hover{
+	transition: 0.2s;
+	color: darkgreen;
+	background-color: #AFDFAF;
+}
+
+.navigationProjects:hover{
+	transition: 0.2s;
+	color: indigo;
+	background-color: #DAA7FF;
+}
+
+.navigationAbout:hover{
+	transition: 0.2s;
+	color: #776505;
+	background-color: #EAD878;
+}
+
+.navigationContact:hover{
+	transition: 0.2s;
+	color: firebrick;
+	background-color: #FFC2C2;
+}
+
+/* Footer */
+
+.footerContainer{
+	width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+
+.footerText{
+	padding: 15px;
+	margin: 0 auto;
+	font-family: bitter;
+	font-size: 14px;
+	color: dimgrey;
+	text-align: center;
+}
+
+/* Ritigos */
+
+.ritigoContainer{
+	/* min-width: 1000px !important; */
+}
+
+.ritigo{
+	-webkit-transform: skewY(-12deg);
+	transform: skewY(-12deg);
+	background-clip: border-box;
+	box-sizing: border-box;
+	position: absolute;
+	display: block;
+	z-index: -100;
+}
+
+.upper{
+	height: 80px;
+	width: 200px;
+	top: 30%;
+}
+
+.middle{
+	height: 100px;
+	width: 500px;
+	top: 50%;
+}
+
+.lower{
+	height: 120px;
+	width: 300px;
+	top: 80%;
+}
+
+.upperRight{
+	height: 120px;
+	width: 300px;
+	top: 20%;
+	right: 0;
+}
+
+.middleRight{
+	height: 100px;
+	width: 500px;
+	top: 50%;
+	right: 0;
+}
+
+.lowerRight{
+	height: 80px;
+	width: 200px;
+	top: 80%;
+	right: 0;
 }

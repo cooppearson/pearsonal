@@ -1,0 +1,26 @@
+/* 404 Not Found */
+
+.notFound{
+	width: 600px;
+	padding: 100px;
+	margin-top: 300px !important;
+	margin: 0 auto;
+	font-size: 40px;
+	color: dimgrey;
+	background-color: white;
+	border-radius: 10px;
+	font-family: bitter;
+	text-align: center;
+}
+
+.ritigoLightGrey{
+	background: gainsboro;
+}
+
+.ritigoMediumGrey{
+	background: silver;
+}
+
+.ritigoDarkGrey{
+	background: grey;
+}
