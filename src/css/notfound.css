@@ -8,7 +8,8 @@
 	font-size: 40px;
 	color: dimgrey;
 	background-color: white;
-	border-radius: 10px;
+	border: 0.5px solid lightgrey;
+	border-radius: 5px;
 	font-family: bitter;
 	text-align: center;
 }

@@ -8,6 +8,8 @@ export default class About extends React.Component {
 	render() {
 		return(
 			<div>
+				<div>
+				</div>
 				<div className="ritigoContainer">
 					<span className="upper ritigo ritigoLightYellow"></span>
 					<span className="middle ritigo ritigoDarkYellow"></span>

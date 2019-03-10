@@ -30,7 +30,6 @@ class App extends Component {
 						<Route component={NotFound}/>
 					</Switch>
 				</Router>
-				<Footer/>
 			</div>
         );
     }
@@ -38,4 +37,5 @@ class App extends Component {
 
 export default App;
 
-// 248, 208, 231
+// 248, 208, 231 (Pink)
+// <Footer/>
