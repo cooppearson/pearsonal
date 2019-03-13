@@ -8,9 +8,6 @@
 
 .bannerContainer{
 	width: 100%;
-	position: sticky;
-	position: -webkit-sticky;
-	top: 0;
 	background-color: white;
 }
 
@@ -26,14 +23,6 @@
 	width: 100%;
 	min-width: 1000px;
 	text-align: center;
-	-moz-animation: reveal-banner 1s 0.25s ease-in-out;
-	-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-	-ms-animation: reveal-banner 1s 0.25s ease-in-out;
-	animation: reveal-banner 1s 0.25s ease-in-out;
-	-moz-animation-fill-mode: forwards;
-	-webkit-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
 }
 
 .pearsonalLogo{
@@ -84,6 +73,11 @@
 	text-align: center;
 	list-style-type: none;
 	display: inline-block;
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -ms-sticky;
+	position: -o-sticky;
+	top: 0;
 }
 
 li{
@@ -138,9 +132,13 @@ li{
 /* Footer */
 
 .footerContainer{
-	width: 1000px;
+	width: 100%;
 	min-width: 1000px;
 	margin: 0 auto;
+}
+
+hr{
+	width: 1000px;
 }
 
 .footerText{
@@ -155,7 +153,7 @@ li{
 /* Ritigos */
 
 .ritigoContainer{
-	/* min-width: 1000px !important; */
+	width: 1000px !important;
 }
 
 .ritigo{
@@ -163,9 +161,12 @@ li{
 	transform: skewY(-12deg);
 	background-clip: border-box;
 	box-sizing: border-box;
-	position: absolute;
 	display: block;
 	z-index: -100;
+}
+
+.ritigoContainer > span{
+	position: fixed;
 }
 
 .upper{

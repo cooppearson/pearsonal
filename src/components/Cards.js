@@ -15,34 +15,41 @@ import Inside2010 from '../images/2010/Inside2010.jpg'
 import Cover2011 from '../images/2011/Cover2011.jpg'
 import Inside2011 from '../images/2011/Inside2011.jpg'
 import Cover2013 from '../images/2013/Cover2013.jpg'
-import Inside2013_1 from '../images/2013/Inside2013_1.jpg'
+import Inside2013_6 from '../images/2013/Inside2013_6.jpg'
 
 export default class Cards extends React.Component {
 	constructor(props) {
 		super(props);
 
-			this.cardDescription2001 = "asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf ";
+			this.cardDescription2001 = '"The Beginning..."';
+			this.cardDescription2007 = '"Three Wise Children"';
+			this.cardDescription2008 = '"Shredding Santa"';
+			this.cardDescription2009 = '"Cataloging Christmas"';
+			this.cardDescription2010 = '"The Sound of Pearson"';
+			this.cardDescription2011 = '"Hurricane Sandy is Coming to Town"';
+			this.cardDescription2013 = '"Christmas Fitness"';
+
 	}
 
 	render() {
 		return(
 			<div>
 				<div className="cardsSummary">
-					Ze Vault of Pearson Family Christmas Cards
+					The Vault of Pearson Family Christmas Cards
 				</div>
 				<div className="cardsContainer">
 					<SingleCard cover={Cover2001} inside={Inside2001} cardYear={"2001"} cardDescription={this.cardDescription2001}/>
-					<SingleCard cover={Cover2007} inside={Inside2007} cardYear={"2007"}/>
-					<SingleCard cover={Cover2008} inside={Inside2008} cardYear={"2008"}/>
-					<SingleCard cover={Cover2009} inside={Inside2009} cardYear={"2009"}/>
-					<SingleCard cover={Cover2010} inside={Inside2010} cardYear={"2010"}/>
-					<SingleCard cover={Cover2011} inside={Inside2011} cardYear={"2011"}/>
-					<SingleCard cover={Cover2013} inside={Inside2013_1} cardYear={"2013"}/>
+					<SingleCard cover={Cover2007} inside={Inside2007} cardYear={"2007"} cardDescription={this.cardDescription2007}/>
+					<SingleCard cover={Cover2008} inside={Inside2008} cardYear={"2008"} cardDescription={this.cardDescription2008}/>
+					<SingleCard cover={Cover2009} inside={Inside2009} cardYear={"2009"} cardDescription={this.cardDescription2009}/>
+					<SingleCard cover={Cover2010} inside={Inside2010} cardYear={"2010"} cardDescription={this.cardDescription2010}/>
+					<SingleCard cover={Cover2011} inside={Inside2011} cardYear={"2011"} cardDescription={this.cardDescription2011}/>
+					<SingleCard cover={Cover2013} inside={Inside2013_6} cardYear={"2013"} cardDescription={this.cardDescription2013}/>
 				</div>
 				<div className="ritigoContainer">
 					<span className="upper ritigo ritigoLightRed"></span>
 					<span className="middle ritigo ritigoDarkGreen"></span>
-					<span className="lower ritigo ritigoMediumGreen"></span>
+					<span className="lower ritigo ritigoLightRed"></span>
 					<span className="upperRight ritigo ritigoMediumGreen"></span>
 					<span className="middleRight ritigo ritigoLightRed"></span>
 					<span className="lowerRight ritigo ritigoDarkGreen"></span>

@@ -1,16 +1,16 @@
-/* Cards */
+ /* Cards */
 
 
 .cardsSummary{
-	padding: 80px;
+	padding: 50px;
 	text-align: center;
-	font-family: tangerine;
-	font-size: 32px;
+	font-family: pinyon script;
+	font-style: normal;
+	font-size: 48px;
 }
 
 .cardsContainer{
-	min-height: 1000px;
-	width: 1000px;
+	width: 1100px;
 	min-width: 1000px;
 	margin: 0 auto;
 	border-radius: 5px;
@@ -18,15 +18,21 @@
 
 .cardLayout{
 	width: 100%;
-	margin: 20px;
+	/* padding-top: 5px;
+	padding-bottom: 5px; */
+	padding: 10px;
+	margin-bottom: 20px;
 	float: left;
 	background-color: rgba(255,255,255, 1);
+	border: 0.5px solid lightgrey;
 	text-align: center;
 	border-radius: 5px;
 }
 
-.cardLayout > div {
-	display: inline-block;
+.cardLayout{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	vertical-align: middle;
 	vertical-align: -webkit-baseline-middle;
 }
@@ -35,29 +41,37 @@
 	margin: auto;
 	height: auto;
 	width: 300px;
+	margin-right: 5px;
+	border: 0.5px solid green;
+	border-radius: 3px;
 }
 
 .cardInside{
+	margin: auto;
 	height: auto;
 	width: 300px;
+	margin-right: 5px;
+	border: 0.5px solid red;
+	border-radius: 3px;
 }
 
 .cardYear{
-	padding: 15px;
+	min-width: 300px;
 	text-align: center;
-	font-family: bitter;
-	text-decoration: underline;
-	font-size: 36px;
+	font-family: pinyon script;
+	font-size: 40px;
 }
 
 .cardDescription{
-	width: 250px;
-	height: 250px;
-	word-wrap: break-word;
+	text-align: center;
+	font-family: pinyon script;
+	font-size: 32px;
+	white-space: pre-wrap;
 }
 
 .cardTextContainer{
 	margin: auto;
+	padding: 15px;
 }
 
 .ritigoLightRed{

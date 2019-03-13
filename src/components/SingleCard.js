@@ -1,27 +1,23 @@
 import React from 'react';
+import ImageZoom from 'react-medium-image-zoom'
 
 export default class SingleCard extends React.Component {
-	constructor(props) {
-		super(props);
-
-	}
-
 	render() {
 		return(
 			<div className="cardLayout">
-				<div>
-					<img className="cardCover" src={this.props.cover} alt="Cover" />
-				</div>
-				<div>
-					<img className="cardInside" src={this.props.inside} alt="Inside" />
-				</div>
 				<div className="cardTextContainer">
 					<div className="cardYear">
 						{this.props.cardYear}
 					</div>
-					<div className="cardDescription">
+					<span className="cardDescription">
 						{this.props.cardDescription}
-					</div>
+					</span>
+				</div>
+				<div>
+					<ImageZoom image={{src: this.props.cover, alt: 'Cover', className: 'cardCover'}}/>
+				</div>
+				<div>
+					<ImageZoom image={{src: this.props.inside, alt: 'Inside', className: 'cardInside'}}/>
 				</div>
 			</div>
 		)

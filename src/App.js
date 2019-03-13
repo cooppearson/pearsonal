@@ -14,7 +14,7 @@ import About from './components/About';
 import Cards from './components/Cards';
 import Projects from './components/Projects';
 import NotFound from './components/NotFound';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 class App extends Component {
     render() {
@@ -30,6 +30,7 @@ class App extends Component {
 						<Route component={NotFound}/>
 					</Switch>
 				</Router>
+				<Footer/>
 			</div>
         );
     }
@@ -38,4 +39,3 @@ class App extends Component {
 export default App;
 
 // 248, 208, 231 (Pink)
-// <Footer/>
