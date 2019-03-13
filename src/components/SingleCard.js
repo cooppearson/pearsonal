@@ -9,9 +9,19 @@ export default class SingleCard extends React.Component {
 	render() {
 		return(
 			<div className="cardLayout">
-				<div className="cardImage">
-					<img src={this.xmasCardImage.cover} alt="Cover" />
-					<img src={this.xmasCardImage.inside} alt="Inside" />
+				<div>
+					<img className="cardCover" src={this.props.cover} alt="Cover" />
+				</div>
+				<div>
+					<img className="cardInside" src={this.props.inside} alt="Inside" />
+				</div>
+				<div className="cardTextContainer">
+					<div className="cardYear">
+						{this.props.cardYear}
+					</div>
+					<div className="cardDescription">
+						{this.props.cardDescription}
+					</div>
 				</div>
 			</div>
 		)

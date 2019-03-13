@@ -1,5 +1,65 @@
 /* Cards */
 
+
+.cardsSummary{
+	padding: 80px;
+	text-align: center;
+	font-family: tangerine;
+	font-size: 32px;
+}
+
+.cardsContainer{
+	min-height: 1000px;
+	width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.cardLayout{
+	width: 100%;
+	margin: 20px;
+	float: left;
+	background-color: rgba(255,255,255, 1);
+	text-align: center;
+	border-radius: 5px;
+}
+
+.cardLayout > div {
+	display: inline-block;
+	vertical-align: middle;
+	vertical-align: -webkit-baseline-middle;
+}
+
+.cardCover{
+	margin: auto;
+	height: auto;
+	width: 300px;
+}
+
+.cardInside{
+	height: auto;
+	width: 300px;
+}
+
+.cardYear{
+	padding: 15px;
+	text-align: center;
+	font-family: bitter;
+	text-decoration: underline;
+	font-size: 36px;
+}
+
+.cardDescription{
+	width: 250px;
+	height: 250px;
+	word-wrap: break-word;
+}
+
+.cardTextContainer{
+	margin: auto;
+}
+
 .ritigoLightRed{
 	background: linear-gradient(90deg, #fc6a6a 0%, #f70202 100%);
 }

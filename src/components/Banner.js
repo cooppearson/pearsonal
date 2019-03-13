@@ -1,22 +1,26 @@
 import React from 'react';
 import Navigation from './Navigation';
+import { HashRouter as Router, Link } from "react-router-dom";
 
 export default class Banner extends React.Component {
 	constructor(props) {
 		super(props);
-		this.header = {
-			siteName:'Pearsonal',
-			tagLine:'A website for all things Pearson'
-		}
+
+		this.siteName = 'Pearsonal';
 	}
 
 	render() {
 		return(
+
 			<div className="bannerContainer">
 				<div className="bannerTitlesContainer">
-					<div className="pearsonalLogo">{this.header.siteName}</div>
+				<Router>
+					<Link to="/">
+						<div className="pearsonalLogo">{this.siteName}</div>
+					</Link>
+				</Router>
 				</div>
-				<div className="bannerSubtitle">{this.header.tagLine}</div>
+				<div className="bannerSubtitle">A website for all things Pearson</div>
 				<Navigation/>
 			</div>
 		)
