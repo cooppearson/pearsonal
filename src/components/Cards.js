@@ -26,7 +26,7 @@ export default class Cards extends React.Component {
 			this.cardDescription2008 = '"Shredding Santa"';
 			this.cardDescription2009 = '"Cataloging Christmas"';
 			this.cardDescription2010 = '"The Sound of Pearson"';
-			this.cardDescription2011 = '"Hurricane Sandy is Coming to Town"';
+			this.cardDescription2011 = '"The Genuine One"';
 			this.cardDescription2013 = '"Christmas Fitness"';
 
 	}
@@ -36,6 +36,7 @@ export default class Cards extends React.Component {
 			<div>
 				<div className="cardsSummary">
 					The Vault of Pearson Family Christmas Cards
+					<hr></hr>
 				</div>
 				<div className="cardsContainer">
 					<SingleCard cover={Cover2001} inside={Inside2001} cardYear={"2001"} cardDescription={this.cardDescription2001}/>

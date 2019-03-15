@@ -13,14 +13,14 @@ export default class Banner extends React.Component {
 		return(
 
 			<div className="bannerContainer">
-				<div className="bannerTitlesContainer">
-				<Router>
-					<Link to="/">
-						<div className="pearsonalLogo">{this.siteName}</div>
-					</Link>
-				</Router>
-				</div>
-				<div className="bannerSubtitle">A website for all things Pearson</div>
+				<span className="bannerTitlesContainer">
+					<Router>
+						<Link to="/">
+							<div className="pearsonalLogo">{this.siteName}</div>
+						</Link>
+					</Router>
+					<div className="bannerSubtitle">A website for all things Pearson</div>
+				</span>
 				<Navigation/>
 			</div>
 		)

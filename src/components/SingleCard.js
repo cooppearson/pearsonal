@@ -2,6 +2,7 @@ import React from 'react';
 import ImageZoom from 'react-medium-image-zoom'
 
 export default class SingleCard extends React.Component {
+
 	render() {
 		return(
 			<div className="cardLayout">

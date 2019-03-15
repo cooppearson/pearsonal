@@ -7,25 +7,43 @@
 /* Banner */
 
 .bannerContainer{
-	width: 100%;
+	max-width: 100%;
+	min-width: 860px;
+	text-align: center;
 	background-color: white;
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -ms-sticky;
+	position: -o-sticky;
+	top: 0;
 }
 
 .bannerBar{
     height: 1px;
-    width: 100%;
 	min-width: 1000px;
     background: linear-gradient(150deg, navy -15%, #05d5ff 80%, #99ffcc 100%);
 	box-shadow: 0px 1px 2px rgba(0,0,0,.2);
 }
 
 .bannerTitlesContainer{
-	width: 100%;
-	min-width: 1000px;
+	display: inline-block;
 	text-align: center;
 }
 
+.bannerSubtitle{
+	text-align: center;
+	padding: 10px;
+	font-size: 16px;
+	font-family: bitter;
+	text-transform: lowercase;
+	font-weight: 300;
+	font-style: italic;
+	color: dimgrey;
+	display: inline-block;
+}
+
 .pearsonalLogo{
+	min-width: 250px;
 	margin-top: 10px;
 	margin-bottom: 5px;
 	color: black;
@@ -49,35 +67,15 @@
 	transition: 0.2s;
 }
 
-.bannerSubtitle{
-	width: 100%;
-	min-width: 1000px;
-	text-align: center;
-	padding-bottom: 5px;
-	font-size: 16px;
-	font-family: bitter;
-	text-transform: lowercase;
-	font-weight: 300;
-	font-style: italic;
-	color: dimgrey;
-	display: inline-block;
-}
-
 /* Navigation */
 
 .navigationContainer{
-	width: 100%;
-	min-width: 1000px;
+	min-width: 500px;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
 	list-style-type: none;
 	display: inline-block;
-	position: -webkit-sticky;
-	position: -moz-sticky;
-	position: -ms-sticky;
-	position: -o-sticky;
-	top: 0;
 }
 
 li{
@@ -91,7 +89,7 @@ li{
 
 .navButtons{
 	cursor: pointer;
-	min-width: 150px;
+	min-width: 125px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
@@ -111,22 +109,16 @@ li{
 	background-color: #AFDFAF;
 }
 
-.navigationProjects:hover{
-	transition: 0.2s;
-	color: indigo;
-	background-color: #DAA7FF;
-}
-
-.navigationAbout:hover{
+.navigationContact:hover{
 	transition: 0.2s;
 	color: #776505;
 	background-color: #EAD878;
 }
 
-.navigationContact:hover{
+.navigationAbout:hover{
 	transition: 0.2s;
-	color: firebrick;
-	background-color: #FFC2C2;
+	color: indigo;
+	background-color: #DAA7FF;
 }
 
 /* Footer */

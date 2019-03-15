@@ -1,19 +1,19 @@
 import React from 'react';
 
 export default class About extends React.Component {
-	
+
 	render() {
 		return(
 			<div>
 				<div>
 				</div>
 				<div className="ritigoContainer">
-					<span className="upper ritigo ritigoLightYellow"></span>
-					<span className="middle ritigo ritigoDarkYellow"></span>
-					<span className="lower ritigo ritigoMediumYellow"></span>
-					<span className="upperRight ritigo ritigoMediumYellow"></span>
-					<span className="middleRight ritigo ritigoLightYellow"></span>
-					<span className="lowerRight ritigo ritigoDarkYellow"></span>
+					<span className="upper ritigo ritigoLightPurple"></span>
+					<span className="middle ritigo ritigoDarkPurple"></span>
+					<span className="lower ritigo ritigoMediumPurple"></span>
+					<span className="upperRight ritigo ritigoMediumPurple"></span>
+					<span className="middleRight ritigo ritigoLightPurple"></span>
+					<span className="lowerRight ritigo ritigoDarkPurple"></span>
 				</div>
 			</div>
 		)

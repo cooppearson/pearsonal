@@ -1,27 +1,72 @@
 /* Home */
 
 .homeBackground{
-	min-width: 840px;
+	max-width: 100%;
 	padding: 80px;
 }
 
 .homeBlurbContainer{
-	width: 500px;
+	max-width: 1000px;
 	min-width: 600px;
-	min-height: 600px;
 	margin: 0 auto;
-	padding: 75px;
+	margin-bottom: 25px;
+	padding: 50px;
 	border: 0.5px solid lightgrey;
 	border-radius: 5px;
 	background-color: white;
 }
 
 .homeBlurb{
-	font-family: helvetica;
+	font-family: avenir;
 	font-size: 20px;
-	font-weight: 300;
+	font-weight: lighter;
 	line-height: 1.5;
 	white-space: pre-wrap;
+}
+
+h3{
+	font-weight: normal;
+	display: inline;
+}
+
+.linkUnderlinePurple{
+	color: black;
+	text-decoration-color: #b44efc;
+}
+
+.linkUnderlineGreen{
+	color: black;
+	text-decoration-color: #4dc076;
+}
+
+.linkUnderlineYellow{
+	color: black;
+	text-decoration-color: #ffd400;
+}
+
+.linkUnderlineBlue{
+	color: black;
+	text-decoration-color: none;
+}
+
+.linkUnderlinePurple:hover{
+	background-color: #DAA7FF;
+	transition: 0.2s;
+}
+
+.linkUnderlineGreen:hover{
+	background-color: #AFDFAF;
+	transition: 0.2s;
+}
+
+.linkUnderlineYellow:hover{
+	background-color: #EAD878;
+	transition: 0.2s;
+}
+
+.linkUnderlineBlue:hover{
+	background-color: #BEBEED;
+	transition: 0.2s;
 }
 
 .ritigoLightBlue{

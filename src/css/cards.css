@@ -2,39 +2,37 @@
 
 
 .cardsSummary{
-	padding: 50px;
+	min-width: 800px;
+	padding: 40px;
 	text-align: center;
 	font-family: pinyon script;
 	font-style: normal;
-	font-size: 48px;
+	font-size: 40px;
+	color: dimgrey;
 }
 
 .cardsContainer{
-	width: 1100px;
+	max-width: 100%;
 	min-width: 1000px;
 	margin: 0 auto;
 	border-radius: 5px;
 }
 
 .cardLayout{
-	width: 100%;
-	/* padding-top: 5px;
-	padding-bottom: 5px; */
+	max-width: 1100px;
+	min-width: 600px;
 	padding: 10px;
+	margin: auto;
 	margin-bottom: 20px;
-	float: left;
-	background-color: rgba(255,255,255, 1);
-	border: 0.5px solid lightgrey;
-	text-align: center;
-	border-radius: 5px;
-}
-
-.cardLayout{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	vertical-align: middle;
 	vertical-align: -webkit-baseline-middle;
+	background-color: rgba(255,255,255, 1);
+	border: 0.5px solid lightgrey;
+	text-align: center;
+	border-radius: 5px;
 }
 
 .cardCover{
@@ -64,14 +62,15 @@
 
 .cardDescription{
 	text-align: center;
-	font-family: pinyon script;
-	font-size: 32px;
+	font-family: avenir;
+	font-weight: lighter;
+	font-size: 20px;
 	white-space: pre-wrap;
 }
 
 .cardTextContainer{
+	min-width: 200px;
 	margin: auto;
-	padding: 15px;
 }
 
 .ritigoLightRed{

@@ -1,0 +1,13 @@
+/* Contact */
+
+.ritigoLightYellow{
+	background: linear-gradient(90deg, #fff0aa 0%, #ffea87 100%);
+}
+
+.ritigoMediumYellow{
+	background: linear-gradient(90deg, #fce197 0%, #fcd669 100%);
+}
+
+.ritigoDarkYellow{
+	background: linear-gradient(90deg, #ffd400 0%, #ffd400 100%);
+}

@@ -4,7 +4,7 @@ import { HashRouter as Router, Route, Link, Switch } from "react-router-dom";
 import './css/general.css';
 import './css/home.css';
 import './css/cards.css';
-import './css/projects.css';
+import './css/contact.css';
 import './css/about.css';
 import './css/notfound.css';
 
@@ -12,7 +12,7 @@ import Banner from './components/Banner';
 import Home from './components/Home';
 import About from './components/About';
 import Cards from './components/Cards';
-import Projects from './components/Projects';
+import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer';
 
@@ -25,8 +25,8 @@ class App extends Component {
 					<Switch>
 						<Route path="/" exact component={Home} />
 						<Route path="/Cards/" component={Cards} />
-						<Route path="/Projects/" component={Projects} />
 						<Route path="/About/" component={About} />
+						<Route path="/Contact/" component={Contact} />
 						<Route component={NotFound}/>
 					</Switch>
 				</Router>

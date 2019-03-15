@@ -5,7 +5,7 @@ export default class Navigation extends React.Component {
     render() {
         return(
 			<Router>
-				<div>
+				<span>
 					<ul className="navigationContainer">
 						<li>
 							<Link to="/" className="noStyling">
@@ -18,18 +18,18 @@ export default class Navigation extends React.Component {
 							</Link>
 						</li>
 						<li>
-							<Link to="/Projects/" className="noStyling">
-								<div className="navigationProjects navButtons">Projects</div>
-							</Link>
-						</li>
-						<li>
 							<Link to="/About/" className="noStyling">
 								<div className="navigationAbout navButtons">About</div>
 							</Link>
 						</li>
+						<li>
+							<Link to="/Contact/" className="noStyling">
+								<div className="navigationContact navButtons">Contact</div>
+							</Link>
+						</li>
 					</ul>
 					<div className="bannerBar"></div>
-				</div>
+				</span>
 			</Router>
 		)
     }
