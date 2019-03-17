@@ -3,11 +3,11 @@
 
 .cardsSummary{
 	min-width: 800px;
-	padding: 40px;
+	padding: 80px;
 	text-align: center;
 	font-family: pinyon script;
 	font-style: normal;
-	font-size: 40px;
+	font-size: 48px;
 	color: dimgrey;
 }
 
@@ -53,8 +53,21 @@
 	border-radius: 3px;
 }
 
+.imageLayout{
+	width: 625px;
+	display: flex;
+	align-items: center;
+	overflow: scroll;
+}
+
+.additionalCardImages{
+	display: flex;
+	align-items: center;
+}
+
 .cardYear{
 	min-width: 300px;
+	padding-bottom: 30px;
 	text-align: center;
 	font-family: pinyon script;
 	font-size: 40px;

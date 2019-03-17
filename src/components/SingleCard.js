@@ -4,6 +4,7 @@ import ImageZoom from 'react-medium-image-zoom'
 export default class SingleCard extends React.Component {
 
 	render() {
+
 		return(
 			<div className="cardLayout">
 				<div className="cardTextContainer">
@@ -14,11 +15,32 @@ export default class SingleCard extends React.Component {
 						{this.props.cardDescription}
 					</span>
 				</div>
-				<div>
-					<ImageZoom image={{src: this.props.cover, alt: 'Cover', className: 'cardCover'}}/>
-				</div>
-				<div>
-					<ImageZoom image={{src: this.props.inside, alt: 'Inside', className: 'cardInside'}}/>
+				<div className="imageLayout">
+					<span>
+						<ImageZoom image={{src: this.props.cover, alt: 'Cover', className: 'cardCover'}}/>
+					</span>
+					<span>
+						<ImageZoom image={{src: this.props.inside, alt: 'Inside', className: 'cardInside'}}/>
+					</span>
+					{this.props.additionalImage1 && (
+						<div className="additionalCardImages">
+							<span>
+								<ImageZoom image={{src: this.props.additionalImage1, alt: 'AdditionalInside', className: 'cardInside'}}/>
+							</span>
+							<span>
+								<ImageZoom image={{src: this.props.additionalImage2, alt: 'AdditionalInside', className: 'cardInside'}}/>
+							</span>
+							<span>
+								<ImageZoom image={{src: this.props.additionalImage3, alt: 'AdditionalInside', className: 'cardInside'}}/>
+							</span>
+							<span>
+								<ImageZoom image={{src: this.props.additionalImage4, alt: 'AdditionalInside', className: 'cardInside'}}/>
+							</span>
+							<span>
+								<ImageZoom image={{src: this.props.additionalImage5, alt: 'AdditionalInside', className: 'cardInside'}}/>
+							</span>
+						</div>
+					)}
 				</div>
 			</div>
 		)

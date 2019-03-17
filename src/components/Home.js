@@ -26,7 +26,7 @@ export default class Home extends React.Component {
 								who is hopefully not alarmed by my family's humor),
 							</p>
 							<p>
-								or c) an improbably lucky internet denizen who has incorrectly spelled 'personal' or gotten hopelessly lost while searching for Pearson Education (no affiliation).
+								c) an improbably lucky internet denizen who has incorrectly spelled 'personal' or gotten hopelessly lost while searching for Pearson Education (no affiliation).
 							</p>
 						</div>
 					</div>

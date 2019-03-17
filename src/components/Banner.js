@@ -19,7 +19,7 @@ export default class Banner extends React.Component {
 							<div className="pearsonalLogo">{this.siteName}</div>
 						</Link>
 					</Router>
-					<div className="bannerSubtitle">A website for all things Pearson</div>
+					<div className="bannerSubtitle">a website for all things Pearson</div>
 				</span>
 				<Navigation/>
 			</div>
