@@ -3,12 +3,12 @@
 
 .cardsSummary{
 	min-width: 800px;
-	padding: 80px;
+	padding: 50px;
 	text-align: center;
-	font-family: pinyon script;
+	font-family: bitter;
 	font-style: normal;
-	font-size: 48px;
-	color: dimgrey;
+	font-size: 40px;
+	color: darkgreen;
 }
 
 .cardsContainer{
@@ -40,7 +40,7 @@
 	height: auto;
 	width: 300px;
 	margin-right: 5px;
-	border: 0.5px solid green;
+	border: 1px solid green;
 	border-radius: 3px;
 }
 
@@ -49,7 +49,7 @@
 	height: auto;
 	width: 300px;
 	margin-right: 5px;
-	border: 0.5px solid red;
+	border: 1px solid red;
 	border-radius: 3px;
 }
 

@@ -6,15 +6,15 @@ export default class Home extends React.Component {
         return(
 			<div>
 				<div className="homeBackground">
-					<div className="homeBlurbContainer">
-						<div className="homeBlurb">
+					<div className="blurbContainer">
+						<div className="blurbText">
 							<p>
 								<h3>Hello and welcome to Pearsonal,</h3> a personal website dedicated to the Pearson family and my professional work!
 							</p>
 						</div>
 					</div>
-					<div className="homeBlurbContainer">
-						<div className="homeBlurb">
+					<div className="blurbContainer">
+						<div className="blurbText">
 							<h3>
 								If you're reading this, it means you're either:
 							</h3>
@@ -30,8 +30,8 @@ export default class Home extends React.Component {
 							</p>
 						</div>
 					</div>
-					<div className="homeBlurbContainer">
-						<div className="homeBlurb">
+					<div className="blurbContainer">
+						<div className="blurbText">
 							<p>
 								<h3>I've created this site</h3> for the purpose of providing an easy way to show my family's hijinks/creations,
 								showcasing initial progress on some of my smaller side-projects, and to add some <i>pearsonality</i> to the internet.

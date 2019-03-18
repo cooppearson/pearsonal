@@ -11,16 +11,17 @@ export default class Banner extends React.Component {
 
 	render() {
 		return(
-
 			<div className="bannerContainer">
-				<span className="bannerTitlesContainer">
-					<Router>
-						<Link to="/">
-							<div className="pearsonalLogo">{this.siteName}</div>
-						</Link>
-					</Router>
-					<div className="bannerSubtitle">a website for all things Pearson</div>
-				</span>
+				<div className="bannerTitlesContainer">
+					<span>
+						<Router>
+							<Link to="/">
+								<div className="pearsonalLogo">{this.siteName}</div>
+							</Link>
+						</Router>
+					</span>
+					<span className="bannerSubtitle">a website for all things Pearson</span>
+				</div>
 				<Navigation/>
 			</div>
 		)

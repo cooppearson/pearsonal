@@ -5,7 +5,7 @@
 	padding: 80px;
 }
 
-.homeBlurbContainer{
+.blurbContainer{
 	max-width: 1000px;
 	min-width: 600px;
 	margin: 0 auto;
@@ -16,7 +16,7 @@
 	background-color: white;
 }
 
-.homeBlurb{
+.blurbText{
 	font-family: avenir;
 	font-size: 20px;
 	font-weight: lighter;
