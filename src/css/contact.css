@@ -1,5 +1,9 @@
 /* Contact */
 
+.blah{
+	height: 1200px;
+}
+
 .ritigoLightYellow{
 	background: linear-gradient(90deg, #fff0aa 0%, #ffea87 100%);
 }
@@ -10,4 +14,8 @@
 
 .ritigoDarkYellow{
 	background: linear-gradient(90deg, #ffd400 0%, #ffd400 100%);
+}
+
+.contactBackground{
+	background-image: linear-gradient(150deg, rgb(246, 249, 252) 50%, rgb(255, 240, 170) 100%);
 }

@@ -1,6 +1,6 @@
 /* Home */
 
-.homeBackground{
+.homeCanvas{
 	max-width: 100%;
 	padding: 80px;
 }
@@ -10,7 +10,7 @@
 	min-width: 600px;
 	margin: 0 auto;
 	margin-bottom: 25px;
-	padding: 50px;
+	padding: 40px;
 	border: 0.5px solid lightgrey;
 	border-radius: 5px;
 	background-color: white;
@@ -24,7 +24,9 @@
 	white-space: pre-wrap;
 }
 
-h3{
+.subject{
+	font-family: avenir;
+	font-size: 28px;
 	font-weight: normal;
 	display: inline;
 }
@@ -79,4 +81,8 @@ h3{
 
 .ritigoDarkBlue{
 	background: linear-gradient(90deg, #3088ff 0%, #0049ad 100%);
+}
+
+.homeBackground{
+	background-image: linear-gradient(150deg, rgb(246, 249, 252) 30%, rgb(193, 220, 255) 100%);
 }

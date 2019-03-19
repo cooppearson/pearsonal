@@ -9,7 +9,7 @@
 .bannerContainer{
 	width: 100%;
 	text-align: center;
-	background-color: white;
+	background-color: rgba(255, 255, 255, .9);
     position: -webkit-sticky;
     position: -moz-sticky;
     position: -ms-sticky;
@@ -26,6 +26,8 @@
 }
 
 .bannerTitlesContainer{
+	padding-top: 6px;
+	padding-bottom: 5px;
     min-width: 510px;
     display: inline-block;
 }
@@ -43,9 +45,8 @@
 
 .pearsonalLogo{
 	width: 200px;
-	margin-top: 10px;
-	margin-bottom: 5px;
 	color: black;
+	background-color: white;
     border: 4px solid black;
 	font-size: 30px;
 	font-family: bitter;
@@ -56,8 +57,6 @@
 }
 
 .pearsonalLogo:hover{
-	margin-top: 10px;
-	margin-bottom: 5px;
 	color: #c82714;
     border: 4px solid #c82714;
 	font-size: 30px;
@@ -130,6 +129,7 @@ li{
 
 hr{
 	width: 1000px;
+	margin: 0 auto;
 }
 
 .footerText{
@@ -153,7 +153,7 @@ hr{
 	background-clip: border-box;
 	box-sizing: border-box;
 	display: block;
-	z-index: -100;
+	z-index: -10;
 }
 
 .ritigoContainer > span{

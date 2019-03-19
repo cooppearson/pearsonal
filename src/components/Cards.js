@@ -23,6 +23,14 @@ import Inside2013_5 from '../images/2013/Inside2013_5.jpg'
 import Inside2013_6 from '../images/2013/Inside2013_6.jpg'
 
 export default class Cards extends React.Component {
+	componentWillMount(){
+		document.body.classList.add("cardsBackground");
+	}
+
+	componentWillUnmount(){
+		document.body.classList.remove("cardsBackground");
+	}
+
 	constructor(props) {
 		super(props);
 

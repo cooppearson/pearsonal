@@ -1,10 +1,17 @@
 import React from 'react';
 
 export default class Contact extends React.Component {
+	componentWillMount(){
+	    document.body.classList.add("contactBackground");
+	}
+
+	componentWillUnmount(){
+		document.body.classList.remove("contactBackground");
+	}
 
 	render() {
 		return(
-			<div>
+			<div className="blah">
 			<div>
 			</div>
 			<div className="ritigoContainer">

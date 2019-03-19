@@ -1,6 +1,5 @@
  /* Cards */
 
-
 .cardsSummary{
 	min-width: 800px;
 	padding: 50px;
@@ -96,4 +95,8 @@
 
 .ritigoDarkGreen{
 	background: linear-gradient(90deg, #05af41 0%, #007f2d 100%);
+}
+
+.cardsBackground{
+	background-image: linear-gradient(150deg, rgb(246, 249, 252) 20%, rgba(77, 192, 118, 0.1) 100%);
 }
