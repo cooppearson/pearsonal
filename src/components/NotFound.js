@@ -1,15 +1,17 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export default class NotFound extends React.Component {
 	render() {
 		return(
 			<div>
-				<div className="notFound">
-					<div>
-						404 page not found, my dude.
+				<div className="notFoundContainer">
+					<div className="notFound">
+						<div>
+							404 page not found, my dude.
+						</div>
+						<Link className="navigationHome" to="/">Back to Home</Link>
 					</div>
-					<Link className="navigationHome" to="/">Back to Home</Link>
 				</div>
 				<div className="ritigoContainer">
 					<span className="upper ritigo ritigoLightGrey"></span>

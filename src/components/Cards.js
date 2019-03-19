@@ -23,6 +23,7 @@ import Inside2013_5 from '../images/2013/Inside2013_5.jpg'
 import Inside2013_6 from '../images/2013/Inside2013_6.jpg'
 
 export default class Cards extends React.Component {
+	// Adds and removes body styling upon component mounting/unmounting
 	componentWillMount(){
 		document.body.classList.add("cardsBackground");
 	}
@@ -34,6 +35,7 @@ export default class Cards extends React.Component {
 	constructor(props) {
 		super(props);
 
+			// Description text for each card in the layout
 			this.cardDescription2001 = '"The Beginning..."';
 			this.cardDescription2007 = '"Three Wise Children"';
 			this.cardDescription2008 = '"Shredding Santa"';
@@ -52,6 +54,7 @@ export default class Cards extends React.Component {
 					<hr></hr>
 				</div>
 				<div className="cardsContainer">
+					{/* Importing each card as a repeatable component to keep code clean */}
 					<SingleCard cover={Cover2001} inside={Inside2001} cardYear={"2001"} cardDescription={this.cardDescription2001}/>
 					<SingleCard cover={Cover2007} inside={Inside2007} cardYear={"2007"} cardDescription={this.cardDescription2007}/>
 					<SingleCard cover={Cover2008} inside={Inside2008} cardYear={"2008"} cardDescription={this.cardDescription2008}/>

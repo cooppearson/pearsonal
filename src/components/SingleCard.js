@@ -1,4 +1,6 @@
 import React from 'react';
+
+// Import ImageZoom to replicate Medium's inline image zooming functionality
 import ImageZoom from 'react-medium-image-zoom'
 
 export default class SingleCard extends React.Component {

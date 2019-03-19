@@ -1,9 +1,16 @@
 /* 404 Not Found */
 
+.notFoundContainer{
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	vertical-align: middle;
+	vertical-align: -webkit-middle;
+}
+
 .notFound{
 	width: 600px;
 	padding: 100px;
-	margin-top: 300px !important;
 	margin: 0 auto;
 	font-size: 40px;
 	color: dimgrey;

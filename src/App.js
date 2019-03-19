@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
+// CSS files
 import './css/general.css';
 import './css/home.css';
 import './css/cards.css';
@@ -8,6 +9,7 @@ import './css/contact.css';
 import './css/about.css';
 import './css/notfound.css';
 
+// Components
 import Banner from './components/Banner';
 import Home from './components/Home';
 import About from './components/About';

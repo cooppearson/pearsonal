@@ -1,7 +1,61 @@
 /* Contact */
 
-.blah{
-	height: 1200px;
+.contactCanvas{
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	vertical-align: -webkit-baseline-middle;
+}
+
+.contactContainer{
+	max-width: 1000px;
+	min-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	padding: 40px;
+	border: 0.5px solid lightgrey;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.contactSubject{
+	text-align: center;
+	font-family: avenir;
+	font-size: 28px;
+	font-weight: normal;
+}
+
+.contactInputContainer{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.contactInput{
+	width: 70%;
+	border: solid 1px #fce197;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	background-color: white;
+}
+
+.contactInput[type="submit"]{
+	padding: 10px;
+	width: 30%;
+}
+
+.contactInput[type="submit"]:hover{
+	width: 30%;
+	cursor: pointer;
+	background-color: #fce197;
+	transition: 0.2s;
+}
+
+.gotchaHoneypot{
+	visibility: hidden;
 }
 
 .ritigoLightYellow{

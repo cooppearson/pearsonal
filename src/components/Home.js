@@ -1,7 +1,8 @@
 import React from 'react';
-import { HashRouter as Router, Link } from "react-router-dom";
+import { HashRouter as Router, Link } from 'react-router-dom';
 
 export default class Home extends React.Component {
+	// Adds and removes body styling upon component mounting/unmounting
 	componentWillMount(){
 		document.body.classList.add("homeBackground");
 	}
@@ -14,6 +15,7 @@ export default class Home extends React.Component {
         return(
 			<div>
 				<div className="homeCanvas">
+					<span className="homePearsonalLogo">Pearsonal</span>
 					<div className="blurbContainer">
 						<div className="blurbText">
 							<p>
