@@ -19,15 +19,15 @@ export default class Home extends React.Component {
 					<div className="blurbContainer">
 						<div className="blurbText">
 							<p>
-								<span className="subject">Hello and welcome to Pearsonal,</span> a personal website dedicated to the Pearson family and my professional work!
+								Hello and welcome to Pearsonal, a personal website dedicated to the Pearson family and my professional work!
 							</p>
 						</div>
 					</div>
 					<div className="blurbContainer">
 						<div className="blurbText">
-							<span className="subject">
+							<p>
 								If you're reading this, it means you're either:
-							</span>
+							</p>
 							<p>
 								a) a friend to whom I have mentioned this site and are eager to rediscover the hilarity of my family's <Link to="/Cards/" className="linkUnderlineGreen">Christmas cards</Link>,
 							</p>
@@ -43,7 +43,7 @@ export default class Home extends React.Component {
 					<div className="blurbContainer">
 						<div className="blurbText">
 							<p>
-								<span className="subject">I've created this site</span> for the purpose of providing an easy way to show my family's hijinks/creations,
+								I've created this site for the purpose of providing an easy way to show my family's hijinks/creations,
 								showcasing initial progress on some of my smaller side-projects, and to add some <i>pearsonality</i> to the internet.
 								Check in every so often for updates, and <Link to="/Contact/" className="linkUnderlineYellow">let me know</Link> if
 								there's anything I can help with while you shop around.

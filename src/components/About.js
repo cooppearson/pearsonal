@@ -15,7 +15,7 @@ export default class About extends React.Component {
 	render() {
 		return(
 			<div>
-				<div className="homeCanvas">
+				<div className="aboutCanvas">
 					<div className="blurbContainer">
 						<div className="blurbText">
 							<span className="subject">
