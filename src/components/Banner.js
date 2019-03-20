@@ -15,12 +15,12 @@ export default class Banner extends React.Component {
 				<div className="bannerTitlesContainer">
 					<span>
 						<Router>
-							<Link to="/">
+							<Link to="/" aria-label="Link to home page">
 								<div className="pearsonalLogo">{this.siteName}</div>
 							</Link>
 						</Router>
 					</span>
-					<span className="bannerSubtitle">a website for all things Pearson</span>
+					<span className="bannerSubtitle" aria-label="Banner tagline">a website for all things Pearson</span>
 				</div>
 				<Navigation/>
 			</div>

@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/Inside2011.38fa301e.jpg"
   },
   {
-    "revision": "f97a625536629198a862",
-    "url": "/static/css/main.d18bf7fb.chunk.css"
+    "revision": "16f4593f414604daca14",
+    "url": "/static/css/main.62c88ea5.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/pinyon-script-latin-400.53df9c33.woff"
   },
   {
-    "revision": "3d3f5e72443e784666f6",
-    "url": "/static/js/2.3d3f5e72.chunk.js"
+    "revision": "c0be0a18fa6d32254338",
+    "url": "/static/js/2.c0be0a18.chunk.js"
   },
   {
     "revision": "44f66afcd31afe32f12bd607e4c4c2ef",
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "/static/media/Cover2011.b4b891a9.jpg"
   },
   {
-    "revision": "f97a625536629198a862",
-    "url": "/static/js/main.f97a6255.chunk.js"
+    "revision": "16f4593f414604daca14",
+    "url": "/static/js/main.16f4593f.chunk.js"
   },
   {
     "revision": "cbfd72a82babaa0e8e51fb0dc76815f9",
@@ -128,11 +128,11 @@ self.__precacheManifest = [
     "url": "/static/media/pinyon-script-latin-400.88d06f70.woff2"
   },
   {
-    "revision": "3d3f5e72443e784666f6",
-    "url": "/static/css/2.cc945380.chunk.css"
+    "revision": "c0be0a18fa6d32254338",
+    "url": "/static/css/2.584dc471.chunk.css"
   },
   {
-    "revision": "b05691f196d8677ab9bac4a3d153fdfc",
+    "revision": "7f555014e2ffe8585a1ec92edf4ca7bb",
     "url": "/index.html"
   }
 ];

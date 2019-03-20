@@ -1,4 +1,6 @@
 import React from 'react';
+import DocumentTitle from 'react-document-title';
+
 import SingleCard from './SingleCard'
 
 // Importing images
@@ -48,40 +50,42 @@ export default class Cards extends React.Component {
 
 	render() {
 		return(
-			<div>
-				<div className="cardsSummary">
-					The Vault of Pearson Family Christmas Cards
-					<hr></hr>
+			<DocumentTitle title="Pearsonal - Cards">
+				<div>
+					<div className="cardsSummary" aria-label="Title of cards page">
+						The Vault of Pearson Family Christmas Cards
+						<hr></hr>
+					</div>
+					<div className="cardsContainer" aria-label="Container for Christmas cards and years">
+						{/* Importing each card as a repeatable component to keep code clean */}
+						<SingleCard cover={Cover2001} inside={Inside2001} cardYear={"2001"} cardDescription={this.cardDescription2001}/>
+						<SingleCard cover={Cover2007} inside={Inside2007} cardYear={"2007"} cardDescription={this.cardDescription2007}/>
+						<SingleCard cover={Cover2008} inside={Inside2008} cardYear={"2008"} cardDescription={this.cardDescription2008}/>
+						<SingleCard cover={Cover2009} inside={Inside2009} cardYear={"2009"} cardDescription={this.cardDescription2009}/>
+						<SingleCard cover={Cover2010} inside={Inside2010} cardYear={"2010"} cardDescription={this.cardDescription2010}/>
+						<SingleCard cover={Cover2011} inside={Inside2011} cardYear={"2011"} cardDescription={this.cardDescription2011}/>
+						<SingleCard
+							cover={Cover2013}
+							inside={Inside2013_1}
+							additionalImage1={Inside2013_2}
+							additionalImage2={Inside2013_3}
+							additionalImage3={Inside2013_4}
+							additionalImage4={Inside2013_5}
+							additionalImage5={Inside2013_6}
+							cardYear={"2013"}
+							cardDescription={this.cardDescription2013}
+						/>
+					</div>
+					<div className="ritigoContainer">
+						<span className="upper ritigo ritigoLightRed"></span>
+						<span className="middle ritigo ritigoDarkGreen"></span>
+						<span className="lower ritigo ritigoLightRed"></span>
+						<span className="upperRight ritigo ritigoMediumGreen"></span>
+						<span className="middleRight ritigo ritigoLightRed"></span>
+						<span className="lowerRight ritigo ritigoDarkGreen"></span>
+					</div>
 				</div>
-				<div className="cardsContainer">
-					{/* Importing each card as a repeatable component to keep code clean */}
-					<SingleCard cover={Cover2001} inside={Inside2001} cardYear={"2001"} cardDescription={this.cardDescription2001}/>
-					<SingleCard cover={Cover2007} inside={Inside2007} cardYear={"2007"} cardDescription={this.cardDescription2007}/>
-					<SingleCard cover={Cover2008} inside={Inside2008} cardYear={"2008"} cardDescription={this.cardDescription2008}/>
-					<SingleCard cover={Cover2009} inside={Inside2009} cardYear={"2009"} cardDescription={this.cardDescription2009}/>
-					<SingleCard cover={Cover2010} inside={Inside2010} cardYear={"2010"} cardDescription={this.cardDescription2010}/>
-					<SingleCard cover={Cover2011} inside={Inside2011} cardYear={"2011"} cardDescription={this.cardDescription2011}/>
-					<SingleCard
-						cover={Cover2013}
-						inside={Inside2013_1}
-						additionalImage1={Inside2013_2}
-						additionalImage2={Inside2013_3}
-						additionalImage3={Inside2013_4}
-						additionalImage4={Inside2013_5}
-						additionalImage5={Inside2013_6}
-						cardYear={"2013"}
-						cardDescription={this.cardDescription2013}
-					/>
-				</div>
-				<div className="ritigoContainer">
-					<span className="upper ritigo ritigoLightRed"></span>
-					<span className="middle ritigo ritigoDarkGreen"></span>
-					<span className="lower ritigo ritigoLightRed"></span>
-					<span className="upperRight ritigo ritigoMediumGreen"></span>
-					<span className="middleRight ritigo ritigoLightRed"></span>
-					<span className="lowerRight ritigo ritigoDarkGreen"></span>
-				</div>
-			</div>
+			</DocumentTitle>
 		)
 	}
 };

@@ -6,24 +6,24 @@ export default class Navigation extends React.Component {
         return(
 			<Router>
 				<span>
-					<ul className="navigationContainer">
+					<ul className="navigationContainer" aria-label="Navigation buttons container">
 						<li>
-							<Link to="/" className="noStyling">
+							<Link to="/" className="noStyling" aria-label="Link to home page">
 								<div className="navigationHome navButtons">Home</div>
 							</Link>
 						</li>
 						<li>
-							<Link to="/Cards/" className="noStyling">
+							<Link to="/Cards/" className="noStyling" aria-label="Link to cards page">
 								<div className="navigationCards navButtons">Cards</div>
 							</Link>
 						</li>
 						<li>
-							<Link to="/About/" className="noStyling">
+							<Link to="/About/" className="noStyling" aria-label="Link to about page">
 								<div className="navigationAbout navButtons">About</div>
 							</Link>
 						</li>
 						<li>
-							<Link to="/Contact/" className="noStyling">
+							<Link to="/Contact/" className="noStyling" aria-label="Link to contact page">
 								<div className="navigationContact navButtons">Contact</div>
 							</Link>
 						</li>

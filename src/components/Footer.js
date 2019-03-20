@@ -13,7 +13,7 @@ export default class Foot extends React.Component {
 		return(
 			<div className="footerContainer">
 				<hr></hr>
-				<div className="footerText">
+				<div className="footerText" aria-label="Footer text">
 					Pearsonal. Created by Cooper Pearson, 2019.
 				</div>
 			</div>
