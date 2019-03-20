@@ -9,15 +9,16 @@
 }
 
 .notFound{
-	width: 600px;
+	max-width: 40vw;
 	padding: 100px;
 	margin: 0 auto;
-	font-size: 40px;
+	font-size: 3vh;
 	color: dimgrey;
 	background-color: rgba(255,255,255, 1);
 	border: 0.5px solid lightgrey;
 	border-radius: 5px;
 	font-family: bitter;
+	line-height: 2;
 	text-align: center;
 }
 

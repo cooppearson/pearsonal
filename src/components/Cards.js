@@ -54,7 +54,6 @@ export default class Cards extends React.Component {
 				<div>
 					<div className="cardsSummary" aria-label="Title of cards page">
 						The Vault of Pearson Family Christmas Cards
-						<hr></hr>
 					</div>
 					<div className="cardsContainer" aria-label="Container for Christmas cards and years">
 						{/* Importing each card as a repeatable component to keep code clean */}

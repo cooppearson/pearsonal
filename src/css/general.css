@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+p{
+	width: 70vw !important;
+}
+
 /* Banner */
 
 .bannerContainer{
@@ -20,7 +24,7 @@
 
 .bannerBar{
     height: 1px;
-	min-width: 1000px;
+	width: 100vw;
     background: linear-gradient(150deg, navy -15%, #05d5ff 80%, #99ffcc 100%);
 	box-shadow: 0px 1px 2px rgba(0,0,0,.2);
 }
@@ -28,14 +32,14 @@
 .bannerTitlesContainer{
 	padding-top: 6px;
 	padding-bottom: 5px;
-    min-width: 510px;
+    width: 80vw;
     display: inline-block;
 }
 
 .bannerSubtitle{
+	min-width: 60vw;
     padding-left: 10px;
-    padding-right: 50px;
-	font-size: 16px;
+	font-size: 2.2vh;
 	font-family: bitter;
 	/* text-transform: lowercase; */
 	font-weight: 300;
@@ -44,11 +48,12 @@
 }
 
 .pearsonalLogo{
-	width: 200px;
 	color: black;
 	background-color: white;
     border: 4px solid black;
-	font-size: 30px;
+	padding-left: 0.7vw;
+	padding-right: 0.7vw;
+	font-size: 3vh;
 	font-family: bitter;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -59,7 +64,7 @@
 .pearsonalLogo:hover{
 	color: #c82714;
     border: 4px solid #c82714;
-	font-size: 30px;
+	font-size: 3vh;
 	font-family: bitter;
 	font-weight: normal;
 	transition: 0.2s;
@@ -68,12 +73,13 @@
 /* Navigation */
 
 .navigationContainer{
-	min-width: 500px;
+	width: 95vw;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
 	list-style-type: none;
-    display: inline-block;
+    display: flex;
+	justify-content: center;
 }
 
 li{
@@ -87,9 +93,8 @@ li{
 
 .navButtons{
 	cursor: pointer;
-	min-width: 125px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	width: 20vw;
+	padding: 10px;
 	text-align: center;
 	font-family: bitter;
 	font-weight: 400;
@@ -123,28 +128,27 @@ li{
 
 .footerContainer{
 	width: 60vw;
-	min-width: 1000px;
 	margin: 0 auto;
 }
 
 hr{
-	width: 1000px;
+	width: 60vw;
 	margin: 0 auto;
 }
 
 .footerText{
 	padding: 15px;
 	margin: 0 auto;
-	font-family: bitter;
-	font-size: 14px;
-	color: dimgrey;
+	font-family: avenir;
+	font-size: 2vh;
+	color: black;
 	text-align: center;
 }
 
 /* Ritigos */
 
 .ritigoContainer{
-	width: 1000px !important;
+	width: 100vw !important;
 }
 
 .ritigo{

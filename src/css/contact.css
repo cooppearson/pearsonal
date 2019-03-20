@@ -10,8 +10,10 @@
 }
 
 .contactContainer{
-	max-width: 1000px;
-	min-width: 600px;
+	min-width: 40vw;
+	max-width: 70vw;
+	max-height: 80vh;
+	max-height: 50vh;
 	margin: 0 auto;
 	margin-bottom: 25px;
 	padding: 40px;
@@ -23,7 +25,7 @@
 .contactSubject{
 	text-align: center;
 	font-family: avenir;
-	font-size: 28px;
+	font-size: 3vh;
 	font-weight: normal;
 }
 
@@ -36,6 +38,7 @@
 
 .contactInput{
 	width: 70%;
+	font-size: 1.8vh;
 	border: solid 1px #fce197;
 	border-radius: 5px;
 	margin-bottom: 15px;
@@ -43,12 +46,13 @@
 }
 
 .contactInput[type="submit"]{
-	padding: 10px;
-	width: 30%;
+	font-size: 1.8vh;
+	padding: 5px;
+	width: 120px;
 }
 
 .contactInput[type="submit"]:hover{
-	width: 30%;
+	width: 120px;
 	cursor: pointer;
 	background-color: #fce197;
 	transition: 0.2s;

@@ -18,6 +18,9 @@ export default class About extends React.Component {
 			<DocumentTitle title="Pearsonal - About">
 				<div>
 					<div className="aboutCanvas">
+						<div className="cardsSummary" aria-label="Title of about page">
+							About Me
+						</div>
 						<div className="blurbContainer">
 							<div className="blurbText">
 								<span className="subject" aria-label="Who Am I? title">

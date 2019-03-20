@@ -10,9 +10,9 @@ export default class SingleCard extends React.Component {
 		return(
 			<div className="cardLayout">
 				<div className="cardTextContainer">
-					<div className="cardYear" aria-label="Year card was released">
+					<span className="cardYear" aria-label="Year card was released">
 						{this.props.cardYear}
-					</div>
+					</span>
 					<span className="cardDescription" aria-label="Unofficial description of card">
 						{this.props.cardDescription}
 					</span>
