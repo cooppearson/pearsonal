@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default class Home extends React.Component {
 	// Adds and removes body styling upon component mounting/unmounting

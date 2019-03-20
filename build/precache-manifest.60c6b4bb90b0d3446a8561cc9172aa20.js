@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d1ce73a8bf5b1b651f467a6daac03c4d",
-    "url": "/static/media/Inside2010.d1ce73a8.jpg"
+    "revision": "38fa301eb21af08debcfe26c8cb0bc35",
+    "url": "/static/media/Inside2011.38fa301e.jpg"
   },
   {
-    "revision": "5a84b6ae270eab23f38f",
-    "url": "/static/css/main.963b3e1f.chunk.css"
+    "revision": "f97a625536629198a862",
+    "url": "/static/css/main.d18bf7fb.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,8 +16,12 @@ self.__precacheManifest = [
     "url": "/static/media/pinyon-script-latin-400.53df9c33.woff"
   },
   {
-    "revision": "8f2c1fdbf600a01d5f9c",
-    "url": "/static/js/2.8f2c1fdb.chunk.js"
+    "revision": "3d3f5e72443e784666f6",
+    "url": "/static/js/2.3d3f5e72.chunk.js"
+  },
+  {
+    "revision": "44f66afcd31afe32f12bd607e4c4c2ef",
+    "url": "/static/media/resume.44f66afc.pdf"
   },
   {
     "revision": "e672d11868144c16f4055d00235e30c1",
@@ -56,20 +60,40 @@ self.__precacheManifest = [
     "url": "/static/media/Cover2010.56914452.jpg"
   },
   {
-    "revision": "5a84b6ae270eab23f38f",
-    "url": "/static/js/main.5a84b6ae.chunk.js"
+    "revision": "d1ce73a8bf5b1b651f467a6daac03c4d",
+    "url": "/static/media/Inside2010.d1ce73a8.jpg"
   },
   {
     "revision": "b4b891a91cbe119af2928be71fb01477",
     "url": "/static/media/Cover2011.b4b891a9.jpg"
   },
   {
-    "revision": "38fa301eb21af08debcfe26c8cb0bc35",
-    "url": "/static/media/Inside2011.38fa301e.jpg"
+    "revision": "f97a625536629198a862",
+    "url": "/static/js/main.f97a6255.chunk.js"
   },
   {
     "revision": "cbfd72a82babaa0e8e51fb0dc76815f9",
     "url": "/static/media/Cover2013.cbfd72a8.jpg"
+  },
+  {
+    "revision": "363ae31e0fde8e03722beebbc18efb8d",
+    "url": "/static/media/Inside2013_1.363ae31e.jpg"
+  },
+  {
+    "revision": "c119aedd74c0cbfdc725aa2c3e99431a",
+    "url": "/static/media/Inside2013_2.c119aedd.jpg"
+  },
+  {
+    "revision": "bebb615371a3e56e853a17fcc530d961",
+    "url": "/static/media/Inside2013_3.bebb6153.jpg"
+  },
+  {
+    "revision": "7cff5ab09eae6dd7229821dc5c24f2a5",
+    "url": "/static/media/Inside2013_4.7cff5ab0.jpg"
+  },
+  {
+    "revision": "3e64f92967c765d9a7af5a95fd0e7324",
+    "url": "/static/media/Inside2013_5.3e64f929.jpg"
   },
   {
     "revision": "c2e10f7a74f6aea34577161351321904",
@@ -104,11 +128,11 @@ self.__precacheManifest = [
     "url": "/static/media/pinyon-script-latin-400.88d06f70.woff2"
   },
   {
-    "revision": "8f2c1fdbf600a01d5f9c",
-    "url": "/static/css/2.58062d3b.chunk.css"
+    "revision": "3d3f5e72443e784666f6",
+    "url": "/static/css/2.cc945380.chunk.css"
   },
   {
-    "revision": "1af9662d30c13ebcebc3478678ead4be",
+    "revision": "b05691f196d8677ab9bac4a3d153fdfc",
     "url": "/index.html"
   }
 ];

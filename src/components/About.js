@@ -1,5 +1,4 @@
 import React from 'react';
-import { HashRouter as Router, Link } from 'react-router-dom';
 import Resume from '../images/resume.pdf';
 
 export default class About extends React.Component {
