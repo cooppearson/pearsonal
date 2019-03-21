@@ -72,8 +72,7 @@ p{
 	padding: 0;
 	text-align: center;
 	list-style-type: none;
-    display: flex;
-	justify-content: center;
+    display: inline-block;
 }
 
 li{
@@ -87,7 +86,7 @@ li{
 
 .navButtons{
 	cursor: pointer;
-	width: 20vw;
+	width: 18vw;
 	max-width: 150px;
 	padding: 10px;
 	text-align: center;
@@ -162,38 +161,38 @@ hr{
 .upper{
 	height: 80px;
 	width: 200px;
-	top: 30%;
+	top: 30vh;
 }
 
 .middle{
 	height: 100px;
 	width: 450px;
-	top: 50%;
+	top: 50vh;
 }
 
 .lower{
 	height: 120px;
 	width: 300px;
-	top: 80%;
+	top: 80vh;
 }
 
 .upperRight{
 	height: 120px;
 	width: 300px;
-	top: 20%;
+	top: 20vh;
 	right: 0;
 }
 
 .middleRight{
 	height: 100px;
 	width: 450px;
-	top: 50%;
+	top: 50vh;
 	right: 0;
 }
 
 .lowerRight{
 	height: 80px;
 	width: 200px;
-	top: 80%;
+	top: 80vh;
 	right: 0;
 }

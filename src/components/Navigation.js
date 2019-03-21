@@ -5,7 +5,7 @@ export default class Navigation extends React.Component {
     render() {
         return(
 			<Router>
-				<span>
+				<div>
 					<ul className="navigationContainer" aria-label="Navigation buttons container">
 						<li>
 							<Link to="/" className="noStyling" aria-label="Link to home page">
@@ -29,7 +29,7 @@ export default class Navigation extends React.Component {
 						</li>
 					</ul>
 					<div className="bannerBar"></div>
-				</span>
+				</div>
 			</Router>
 		)
     }
