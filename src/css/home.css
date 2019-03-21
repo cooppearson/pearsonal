@@ -1,0 +1,103 @@
+/* Home */
+
+.homeCanvas{
+	max-width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.homePearsonalLogo{
+	margin: 50px;
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+	color: black;
+	background-color: white;
+    border: 6px solid black;
+	font-size: 6vh;
+	font-family: bitter;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.blurbContainer{
+	width: 70vw;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	padding: 30px;
+	border: 0.5px solid lightgrey;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.blurbText{
+	max-width: 100vw;
+	font-family: avenir;
+	font-size: 2.2vh;
+	font-weight: lighter;
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+.subject{
+	font-family: avenir;
+	font-size: 3vh;
+	font-weight: normal;
+	display: inline;
+}
+
+.linkUnderlinePurple{
+	color: black;
+	text-decoration-color: #b44efc;
+}
+
+.linkUnderlineGreen{
+	color: black;
+	text-decoration-color: #4dc076;
+}
+
+.linkUnderlineYellow{
+	color: black;
+	text-decoration-color: #ffd400;
+}
+
+.linkUnderlineBlue{
+	color: black;
+	text-decoration-color: none;
+}
+
+.linkUnderlinePurple:hover{
+	background-color: #DAA7FF;
+	transition: 0.2s;
+}
+
+.linkUnderlineGreen:hover{
+	background-color: #AFDFAF;
+	transition: 0.2s;
+}
+
+.linkUnderlineYellow:hover{
+	background-color: #EAD878;
+	transition: 0.2s;
+}
+
+.linkUnderlineBlue:hover{
+	background-color: #BEBEED;
+	transition: 0.2s;
+}
+
+.ritigoLightBlue{
+	background: linear-gradient(90deg, #c1dcff 0%, #a0c9ff 100%);
+}
+
+.ritigoMediumBlue{
+	background: linear-gradient(90deg, #82b8ff 0%, #59a0ff 100%);
+}
+
+.ritigoDarkBlue{
+	background: linear-gradient(90deg, #3088ff 0%, #0049ad 100%);
+}
+
+.homeBackground{
+	background-image: linear-gradient(150deg, rgb(246, 249, 252) 30%, rgb(193, 220, 255) 100%);
+}

@@ -1,27 +1,43 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+
+// CSS files
+import './css/general.css';
+import './css/home.css';
+import './css/cards.css';
+import './css/contact.css';
+import './css/about.css';
+import './css/notfound.css';
+
+// Components
+import Banner from './components/Banner';
+import Home from './components/Home';
+import About from './components/About';
+import Cards from './components/Cards';
+import Contact from './components/Contact';
+import NotFound from './components/NotFound';
+import Footer from './components/Footer';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Hello Wisconsin!
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-          </a>
-        </header>
-      </div>
-    );
-  }
+    render() {
+        return (
+			<div>
+				<Banner/>
+				<Router>
+					<Switch>
+						<Route path="/" exact component={Home} />
+						<Route path="/Cards/" component={Cards} />
+						<Route path="/About/" component={About} />
+						<Route path="/Contact/" component={Contact} />
+						<Route component={NotFound}/>
+					</Switch>
+				</Router>
+				<Footer/>
+			</div>
+        );
+    }
 }
 
 export default App;
+
+// 248, 208, 231 (Pink)

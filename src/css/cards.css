@@ -1,0 +1,102 @@
+ /* Cards */
+
+.cardsSummary{
+	padding: 50px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: bitter;
+	font-style: normal;
+	font-size: 4vh;
+	color: black;
+}
+
+.cardsContainer{
+	max-width: 100vw;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.cardLayout{
+	width: 80vw;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	vertical-align: middle;
+	vertical-align: -webkit-baseline-middle;
+	background-color: white;
+	border: 0.5px solid lightgrey;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.cardCover{
+	margin: auto;
+	height: auto;
+	width: 25vw;
+	max-width: 400px;
+	margin-right: 5px;
+	border: 1px solid green;
+	border-radius: 3px;
+}
+
+.cardInside{
+	margin: auto;
+	height: auto;
+	width: 25vw;
+	max-width: 400px;
+	margin-right: 5px;
+	border: 1px solid red;
+	border-radius: 3px;
+}
+
+.imageLayout{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	overflow: scroll;
+}
+
+.additionalCardImages{
+	display: flex;
+	align-items: center;
+}
+
+.cardYear{
+	line-height: 1.5;
+	text-align: center;
+	font-family: pinyon script;
+	font-size: 4.5vh;
+}
+
+.cardDescription{
+	text-align: center;
+	font-family: avenir;
+	font-weight: lighter;
+	font-size: 2.7vh;
+}
+
+.cardTextContainer{
+	display: flex;
+	flex-direction: column;
+	min-width: 30vw;
+	margin: auto;
+}
+
+.ritigoLightRed{
+	background: linear-gradient(90deg, #fc6a6a 0%, #f70202 100%);
+}
+
+.ritigoMediumGreen{
+	background: linear-gradient(90deg, #99ed68 0%, #4dc076 100%);
+}
+
+.ritigoDarkGreen{
+	background: linear-gradient(90deg, #05af41 0%, #007f2d 100%);
+}
+
+.cardsBackground{
+	background-image: linear-gradient(150deg, rgb(246, 249, 252) 20%, rgba(77, 192, 118, 0.1) 100%);
+}

@@ -1,0 +1,79 @@
+/* Contact */
+
+.contactCanvas{
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	vertical-align: -webkit-baseline-middle;
+}
+
+.contactContainer{
+	min-width: 40vw;
+	max-width: 70vw;
+	max-height: 80vh;
+	max-height: 50vh;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	padding: 40px;
+	border: 0.5px solid lightgrey;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.contactSubject{
+	text-align: center;
+	font-family: avenir;
+	font-size: 3vh;
+	font-weight: normal;
+}
+
+.contactInputContainer{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.contactInput{
+	width: 70%;
+	font-size: 1.8vh;
+	border: solid 1px #fce197;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	background-color: white;
+}
+
+.contactInput[type="submit"]{
+	font-size: 1.8vh;
+	padding: 5px;
+	width: 120px;
+}
+
+.contactInput[type="submit"]:hover{
+	width: 120px;
+	cursor: pointer;
+	background-color: #fce197;
+	transition: 0.2s;
+}
+
+.gotchaHoneypot{
+	visibility: hidden;
+}
+
+.ritigoLightYellow{
+	background: linear-gradient(90deg, #fff0aa 0%, #ffea87 100%);
+}
+
+.ritigoMediumYellow{
+	background: linear-gradient(90deg, #fce197 0%, #fcd669 100%);
+}
+
+.ritigoDarkYellow{
+	background: linear-gradient(90deg, #ffd400 0%, #ffd400 100%);
+}
+
+.contactBackground{
+	background-image: linear-gradient(150deg, rgb(246, 249, 252) 50%, rgb(255, 240, 170) 100%);
+}
