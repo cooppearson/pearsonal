@@ -13,7 +13,7 @@ p{
 .bannerContainer{
 	width: 100vw;
 	text-align: center;
-	background-color: rgba(255, 255, 255, .9);
+	background-color: white;
     position: -webkit-sticky;
     position: -moz-sticky;
     position: -ms-sticky;
@@ -32,16 +32,14 @@ p{
 .bannerTitlesContainer{
 	padding-top: 6px;
 	padding-bottom: 5px;
-    width: 80vw;
+    width: 100vw;
     display: inline-block;
 }
 
 .bannerSubtitle{
-	min-width: 60vw;
     padding-left: 10px;
-	font-size: 2.2vh;
+	font-size: 14px;
 	font-family: bitter;
-	/* text-transform: lowercase; */
 	font-weight: 300;
 	font-style: italic;
 	color: dimgrey;
@@ -64,10 +62,6 @@ p{
 .pearsonalLogo:hover{
 	color: #c82714;
     border: 4px solid #c82714;
-	font-size: 3vh;
-	font-family: bitter;
-	font-weight: normal;
-	transition: 0.2s;
 }
 
 /* Navigation */
@@ -94,6 +88,7 @@ li{
 .navButtons{
 	cursor: pointer;
 	width: 20vw;
+	max-width: 150px;
 	padding: 10px;
 	text-align: center;
 	font-family: bitter;
@@ -172,7 +167,7 @@ hr{
 
 .middle{
 	height: 100px;
-	width: 500px;
+	width: 450px;
 	top: 50%;
 }
 
@@ -191,7 +186,7 @@ hr{
 
 .middleRight{
 	height: 100px;
-	width: 500px;
+	width: 450px;
 	top: 50%;
 	right: 0;
 }

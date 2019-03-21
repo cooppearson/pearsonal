@@ -53,7 +53,7 @@ export default class About extends React.Component {
 									the cutting room floor.
 								</p>
 								<p>
-									Those unique leftover taglines and ideas that that he personally wanted to work on as side-projects were
+									Those unique leftover taglines and ideas that he personally wanted to work on as side-projects were
 									immortalized by being placed into the "Pearson Personals" folder to be expanded upon later. Constantly
 									toiling to imbue his own life with some witty Pearson branding, my dad spontaneously amalgamated
 									"Pearson Personals" into "Pearsonal" and the rest is history.

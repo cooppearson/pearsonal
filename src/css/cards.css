@@ -17,7 +17,7 @@
 }
 
 .cardLayout{
-	width: 90vw;
+	width: 80vw;
 	padding: 10px;
 	margin: auto;
 	margin-bottom: 20px;
@@ -26,7 +26,7 @@
 	align-items: center;
 	vertical-align: middle;
 	vertical-align: -webkit-baseline-middle;
-	background-color: rgba(255,255,255, 1);
+	background-color: white;
 	border: 0.5px solid lightgrey;
 	text-align: center;
 	border-radius: 5px;
@@ -36,6 +36,7 @@
 	margin: auto;
 	height: auto;
 	width: 25vw;
+	max-width: 400px;
 	margin-right: 5px;
 	border: 1px solid green;
 	border-radius: 3px;
@@ -45,6 +46,7 @@
 	margin: auto;
 	height: auto;
 	width: 25vw;
+	max-width: 400px;
 	margin-right: 5px;
 	border: 1px solid red;
 	border-radius: 3px;
@@ -66,14 +68,14 @@
 	line-height: 1.5;
 	text-align: center;
 	font-family: pinyon script;
-	font-size: 5vh;
+	font-size: 4.5vh;
 }
 
 .cardDescription{
 	text-align: center;
 	font-family: avenir;
 	font-weight: lighter;
-	font-size: 3vh;
+	font-size: 2.7vh;
 }
 
 .cardTextContainer{
