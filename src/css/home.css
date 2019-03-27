@@ -9,15 +9,8 @@
 
 .homePearsonalLogo{
 	margin: 50px;
-	padding-left: 1.5vw;
-	padding-right: 1.5vw;
-	color: black;
-	background-color: white;
-    border: 6px solid black;
-	font-size: 6vh;
-	font-family: bitter;
-	font-weight: normal;
-	text-transform: uppercase;
+	width: 30vw;
+	height: auto;
 }
 
 .blurbContainer{
