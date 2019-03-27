@@ -9,7 +9,9 @@
 
 .homePearsonalLogo{
 	margin: 50px;
+	display: inline-block;
 	width: 30vw;
+	min-width: 250px;
 	height: auto;
 }
 

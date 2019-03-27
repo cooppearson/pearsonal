@@ -2,6 +2,8 @@ import React from 'react';
 import Navigation from './Navigation';
 import { HashRouter as Router, Link } from 'react-router-dom';
 
+import PearsonalImage from '../images/pearsonal.png'
+
 export default class Banner extends React.Component {
 	constructor(props) {
 		super(props);
@@ -16,7 +18,7 @@ export default class Banner extends React.Component {
 					<span>
 						<Router>
 							<Link to="/" aria-label="Link to home page">
-								<div className="pearsonalLogo">{this.siteName}</div>
+								<img className="pearsonalLogo" src={PearsonalImage} alt="Pearsonal Logo" aria-label="Pearsonal Logo"/>
 							</Link>
 						</Router>
 					</span>
