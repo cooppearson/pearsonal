@@ -1,7 +1,7 @@
 import React from 'react';
 import DocumentTitle from 'react-document-title';
 
-import Resume from '../images/resume.pdf';
+import Resume from '../images/resume-march.pdf';
 
 export default class About extends React.Component {
 	// Adds and removes body styling upon component mounting/unmounting

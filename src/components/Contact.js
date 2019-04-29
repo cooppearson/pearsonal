@@ -21,7 +21,7 @@ export default class Contact extends React.Component {
 								<div className="contactSubject" aria-label="Title of contact container">
 									Don't be a stranger, feel free to contact me!
 								</div>
-								<form action="http://formspree.io/cooppearson@gmail.com" method="POST" aria-label="Contact form">
+								<form action="https://formspree.io/cooppearson@gmail.com" method="POST" aria-label="Contact form">
 									<input className="gotchaHoneypot" type="text" name="_gotcha" />
 									<div className="contactInputContainer">
 										<input className="blurbText contactInput" type="text" name="name" placeholder="Name" label="Name input"/>

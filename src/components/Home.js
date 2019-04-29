@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import DocumentTitle from 'react-document-title';
+import PearsonalImage from '../images/pearsonal.png'
 
 export default class Home extends React.Component {
 	// Adds and removes body styling upon component mounting/unmounting
@@ -17,7 +18,9 @@ export default class Home extends React.Component {
 			<DocumentTitle title="Pearsonal - Home">
 			<div>
 				<div className="homeCanvas">
-					<span className="homePearsonalLogo">Pearsonal</span>
+					<div>
+						<img className="homePearsonalLogo" src={PearsonalImage} alt="Pearsonal Logo" aria-label="Pearsonal Logo"/>
+					</div>
 					<div className="blurbContainer">
 						<div className="blurbText">
 							<p>
